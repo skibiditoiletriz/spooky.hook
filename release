@@ -38,7 +38,7 @@ function BoxESP.Create(Player)
     Box.Color = Color3.fromRGB(194, 17, 17)
     Box.Filled = false
     Box.Transparency = 0.50
-    Box.Thickness = 3
+    Box.Thickness = 2
 
     local Updater
 
@@ -86,10 +86,10 @@ end)
 EnableBoxESP()
 
 local SelectPart = "Head"
-local HBSizeX = 3
-local HBSizeY = 5
-local HBSizeZ = 3
-local HBTrans = 0.5
+local HBSizeX = 6.75
+local HBSizeY = 6.75
+local HBSizeZ = 6.75
+local HBTrans = 0.4
 
 local PurpleColor = BrickColor.new("Bright violet")
 
